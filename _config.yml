@@ -1,6 +1,14 @@
 title: ComputerElite's blog
 author: ComputerElite
 description: Guess this guy does some development
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
 dash:
   date_format: "%b %-d, %Y"
 
