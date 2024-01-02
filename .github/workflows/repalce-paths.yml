@@ -25,5 +25,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Replace relative paths with absolute paths"
-          git push
+          git commit -m "Replace relative paths with absolute paths"   
+      - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
