@@ -1,4 +1,30 @@
-remote_theme: bitbrain/jekyll-dash
 title: ComputerElite's blog
 author: ComputerElite
 description: ComputerElite's blog about downgrading and more
+dash:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/ComputerElite3
+      icon: twitter-square
+      color: cyan
+    - url: https://www.twitch.tv/computerelite_dev
+      icon: twitch
+      color: purple
+    - url: https://www.youtube.com/channel/UC5-nODCcHg7ptaLJ9mrd72g
+      icon: youtube
+      color: red
+    - url: https://github.com/computerelite
+      icon: github-square
+      color: yellow
+      
+  avatar_source: local
+  avatar_path: /assets/CE_512px.png
+# Build settings
+theme: jekyll-dash
+
+plugins:
+  - liquid-md5
+  - jekyll/tagging
