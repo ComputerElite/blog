@@ -35,11 +35,9 @@ jobs:
             sed -i 's/src="\/assets\/\([^"]*\)"/src="\/blog\/assets\/\1"/g' "$file"
             sed -i 's/href="\/assets\/\([^"]*\)"/href="\/blog\/assets\/\1"/g' "$file"
           done
-      - run: tree
-      - run: pwd
-      - run: ls
 
       - name: Commit changes
+        working-directory: ./build
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -47,6 +45,7 @@ jobs:
           git commit -m "Replace relative paths with absolute paths"   
       - name: Push changes
         uses: ad-m/github-push-action@master
+        working-directory: ./build
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: deploy
