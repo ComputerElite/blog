@@ -23,7 +23,7 @@ jobs:
           target_branch: gh-pages
       - run: cd ..
       - uses: actions/checkout@v2
-        with::
+        with:
           ref: "gh-pages"
           path: "build"
       - run: cd build
