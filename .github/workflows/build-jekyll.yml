@@ -35,7 +35,10 @@ jobs:
             sed -i 's/src="\/assets\/\([^"]*\)"/src="\/blog\/assets\/\1"/g' "$file"
             sed -i 's/href="\/assets\/\([^"]*\)"/href="\/blog\/assets\/\1"/g' "$file"
           done
-      
+      - run: tree
+      - run: pwd
+      - run: ls
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
