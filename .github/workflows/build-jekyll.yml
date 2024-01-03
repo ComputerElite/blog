@@ -34,7 +34,7 @@ jobs:
             sed -i 's/href="\/\([^"]*\)"/href="\/blog\/\1"/g' "$file"
             sed -i 's/src="\/assets\/\([^"]*\)"/src="\/blog\/assets\/\1"/g' "$file"
             sed -i 's/href="\/assets\/\([^"]*\)"/href="\/blog\/assets\/\1"/g' "$file"
-            sed -i 's/url(\(\"\/assets\/[^"]*\"\))/url("\/blog\/assets\/\1")/g' "$file"
+            sed -i 's/url\(\"\/assets\/([^"]*)\"\)/url("\/blog\/assets\/\1")/g' "$file"
           done
 
 
