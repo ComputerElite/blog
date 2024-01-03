@@ -7,7 +7,7 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2:
+      - uses: actions/checkout@v2
         with:
           path: "raw"
       - run: cd raw
