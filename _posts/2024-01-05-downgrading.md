@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Why can't I downgrade with OculusDB
-tags: OculusDB, Oculus, Login, QAVS, OculusDowngrader
+tags: OculusDB Oculus Login QAVS OculusDowngrader
 ---
 
 # Index
-- Why can't I downgrade on OculusDB?
-    - Info on accounts
-    - What this means
-- How can I currently downgrade?
-    - Quest
-    - Rift
-    - OculusDB (not recommended)
++ Why can't I downgrade on OculusDB?
+    * Info on accounts
+    * What this means
+* How can I currently downgrade?
+    * Quest
+    * Rift
+    * OculusDB (not recommended)
 
 # Why can't I downgrade?
 So, why can't you downgrade games on OculusDB right now?
@@ -38,8 +38,8 @@ Simply search for the game you want to downgrade on OculusDB and press the downl
 For OculusDB to work you'll need to get your token and install a browser extension.
 
 You can get your token in the following ways:
-- Install [Oculus Downgrader](https://github.com/ComputerElite/Oculus-downgrader/releases/latest), login and in the settings press export token to OculusDB
-- (ToDo on my end) Install [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/) to your quest via [SideQuest](https://sidequestvr.com/setup-howto) and open the url shown in the tools & options tab on your PC. Then press ˋexport token to OculusDBˋ
+* Install [Oculus Downgrader](https://github.com/ComputerElite/Oculus-downgrader/releases/latest), login and in the settings press export token to OculusDB
+* (ToDo on my end) Install [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/) to your quest via [SideQuest](https://sidequestvr.com/setup-howto) and open the url shown in the tools & options tab on your PC. Then press ˋexport token to OculusDBˋ
 
 After doing that you'll be prompted with which extension to install.
 
