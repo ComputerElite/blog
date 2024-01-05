@@ -24,14 +24,14 @@ Even if you login with the same email and password, depending on the website you
 You cannot download games anymore by simply signing into your browser.
 
 # How can I currently downgrade?
-## Quest
+## Quest (recommended)
 The **currently recommended** way to downgrade is to install [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/) to your quest via [SideQuest](https://sidequestvr.com/setup-howto). You can then either follow the provided instructions (in app) to downgrade and mod Beat Saber or select ˋOther Gameˋ to downgrade other games (you **must** sign into your meta account in the tools & options tab to use the downgrade tab).
 
-### Issues with downgrading?
+### Issues with downgrading in QAVS or Oculus Downgrader?
 If you're having issues with downgrading, you're most likely signed into the wrong account. You **must** be signed into the same account your quest is signed into. You must also have bought the game you're trying to downgrade.
 Check your quests settings to see the email you used for logging into your Quest and use that email to sign in.
 
-## PCVR
+## PCVR and Quest
 Simply search for the game you want to downgrade on OculusDB and press the download button. You'll then get instructions on what to do.
 
 ## OculusDB
