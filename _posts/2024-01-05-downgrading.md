@@ -5,7 +5,7 @@ tags: OculusDB Oculus Login QAVS OculusDowngrader
 ---
 ## Last updated Feb 29th 2024
 ### Revisions
-- [Jan 5th 2024]()
+- [Jan 5th 2024](https://github.com/ComputerElite/blog/blob/b7bea96ae98d919513b7fa3102e9145e799d3ee6/_posts/2024-01-05-downgrading.md)
 # Index
 + Why can't I downgrade on OculusDB?
     * Info on accounts
