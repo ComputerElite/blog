@@ -3,45 +3,35 @@ layout: post
 title: Why can't I downgrade with OculusDB
 tags: OculusDB Oculus Login QAVS OculusDowngrader
 ---
-
+## Last updated Feb 29th 2024
+### Revisions
+- [Jan 5th 2024]()
 # Index
 + Why can't I downgrade on OculusDB?
     * Info on accounts
     * What this means
 * How can I currently downgrade?
     * Quest
-    * Rift
-    * OculusDB (not recommended)
+    * PCVR
 
 # Why can't I downgrade?
-So, why can't you downgrade games on OculusDB right now?
-In the beginning of December 2023 Oculus changed how authentication for game downloads work. This means that you cannot download games anymore with the account on the [Oculus developer page](https://developer.oculus.com).
+So, why can't you downgrade games on by downloading them directly right now?
+Oculus removed download permission for the internal type of account I sign you in with. This means none of my downgrading tools currently have permission to download games from Oculus side
 
 ## Info on accounts
 Even if you login with the same email and password, depending on the website you sign into, your logged in account has different permissions. For example when you log in on the developer page your logged in account does not have permission to download games. And neither does your account do on any other oculus webpage I'm aware of.
 
 ## What this means
-You cannot download games anymore by simply signing into your browser.
+You cannot download games anymore by simply signing into your browser or current downgrading tools
 
 # How can I currently downgrade?
 ## Quest (recommended)
-The **currently recommended** way to downgrade is to install [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/) to your quest via [SideQuest](https://sidequestvr.com/setup-howto). You can then either follow the provided instructions (in app) to downgrade and mod Beat Saber or select ˋOther Gameˋ to downgrade other games (you **must** sign into your meta account in the tools & options tab to use the downgrade tab).
+The **currently recommended** way to downgrade is to install [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/) to your quest via [SideQuest](https://sidequestvr.com/setup-howto). You can then either follow the provided instructions (in app) to downgrade and mod Beat Saber.
+Bear in mind that sadly only Beat Saber can currently be downgraded. And that only to some specific versions. QAVS will tell you which versions you can downgrade to.
 
-### Issues with downgrading in QAVS or Oculus Downgrader?
-If you're having issues with downgrading, you're most likely signed into the wrong account. You **must** be signed into the same account your quest is signed into. You must also have bought the game you're trying to downgrade.
-Check your quests settings to see the email you used for logging into your Quest and use that email to sign in.
-
-## PCVR and Quest
-Simply search for the game you want to downgrade on OculusDB and press the download button. You'll then get instructions on what to do.
-
-## OculusDB
-For OculusDB to work you'll need to get your token and install a browser extension.
-
-You can get your token in the following ways:
-* Install [Oculus Downgrader](https://github.com/ComputerElite/Oculus-downgrader/releases/latest), login and in the settings press export token to OculusDB
-* (ToDo on my end) Install [QuestAppVersionSwitcher](https://sidequestvr.com/app/5333/) to your quest via [SideQuest](https://sidequestvr.com/setup-howto) and open the url shown in the tools & options tab on your PC. Then press ˋexport token to OculusDBˋ
-
-After doing that you'll be prompted with which extension to install.
+## PCVR
+As this also affects PCVR downgrading you cannot downgrade any games on PC.
 
 # Conclusion
 I hope this clears things up. If you have any further questions feel free to join the [OculusDB Discord server](https://discord.gg/zwRfHQN2UY) and ask your questions there.
+I'm searching for ways to get downloads working again. However it may take quite a bit till I find something if I find something at all.
