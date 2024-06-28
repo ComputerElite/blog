@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-06-28T06:46:29+00:00</updated><id>/feed.xml</id><title type="html">ComputerElite’s blog</title><subtitle>Guess this guy does some development</subtitle><author><name>ComputerElite</name></author><entry><title type="html">OculusDB hacking incident</title><link href="/2024/04/01/hacking-incident.html" rel="alternate" type="text/html" title="OculusDB hacking incident" /><published>2024-04-01T00:00:00+00:00</published><updated>2024-04-01T00:00:00+00:00</updated><id>/2024/04/01/hacking-incident</id><content type="html" xml:base="/2024/04/01/hacking-incident.html"><![CDATA[<p><em>last updated 2024-04-01</em></p>
+<h1 id="oculusdb-hacking-incident">OculusDB hacking incident</h1>
+<p>Quick rundown cause I wanna go to bed now.</p>
+
+<h2 id="setup">Setup</h2>
+<p>It’s april fools and as every year I try to do something funny and thus owoified everything on the mods page and OculusDB. OculusDB even got random font sizes and more random pranks I coded long ago.</p>
+
+<h2 id="what-happened">What happened</h2>
+<p>OculusDB and Mars (Mars being the server hosting OculusDB) were taken hostage by John/Johannes/Jonas.
+Apparently some vulnerability in my server library caused this to happen and I’m still investiaging. They were able to successfully lock me out of Mars and due to some tokens being stored in plaintext even my discord server. You can check #general in the OculusDB discord server for more context.</p>
+
+<p>He continued to rename the server to JohnDB and organize a Stage event. In dms he threatened to delete the backup he made of Mars if I didn’t play along and pretended I didn’t care much. He agreed to give me back access to Mars (partially for now) if I rebranded OculusDB to JohnDB for the next few days and kept the april fools stuff on it.</p>
+
+<h2 id="why-did-he-do-this">Why did he do this</h2>
+<p>I don’t know. Motive is unclear. I’d love to give you more insight into this but I can’t</p>
+
+<h2 id="tips-for-you">Tips for you</h2>
+<p>Don’t store tokens to accounts with administrative privilages on your server. Only give them the rights they need.</p>
+
+<p>Have a fail safe account or server you can use to restore your server to a former state or even a recovery state with only one other user and password that’s different from yours.</p>
+
+<p>And in general, don’t trust your code. Try to use tools which have prooven themselves over decades instead of writing your own ones.</p>]]></content><author><name>ComputerElite</name></author><category term="OculusDB" /><category term="hacking" /><category term="security" /><summary type="html"><![CDATA[last updated 2024-04-01 OculusDB hacking incident Quick rundown cause I wanna go to bed now.]]></summary></entry><entry><title type="html">Dumb ideas</title><link href="/2024/01/07/dumb-ideas.html" rel="alternate" type="text/html" title="Dumb ideas" /><published>2024-01-07T00:00:00+00:00</published><updated>2024-01-07T00:00:00+00:00</updated><id>/2024/01/07/dumb-ideas</id><content type="html" xml:base="/2024/01/07/dumb-ideas.html"><![CDATA[<h1 id="whats-this">What’s this?</h1>
+<p>A list of shit I could build or not</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />a second thumb on the opposite side of your hand from your real thumb, attach it in such a way that the fake thumb mimics your real thumb’s movements (Knuckledf)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />hammerhead shark robot that wiggles around and makes an uwu face if it detects something touching its head (Knuckledf)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />a small ceiling fan with smaller ceiling fans at the end of each blade (Knuckledf)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Buld a gaming chair for a flight simulator. If you eject yourself from the plane, the chair ejects you</li>
+</ul>]]></content><author><name>ComputerElite</name></author><category term="engineering" /><summary type="html"><![CDATA[What’s this? A list of shit I could build or not]]></summary></entry><entry><title type="html">Why can’t I downgrade with OculusDB</title><link href="/2024/01/05/downgrading.html" rel="alternate" type="text/html" title="Why can’t I downgrade with OculusDB" /><published>2024-01-05T00:00:00+00:00</published><updated>2024-01-05T00:00:00+00:00</updated><id>/2024/01/05/downgrading</id><content type="html" xml:base="/2024/01/05/downgrading.html"><![CDATA[<h2 id="last-updated-jun-28th-2024">Last updated Jun 28th 2024</h2>
+<h3 id="revisions">Revisions</h3>
+<ul>
+  <li><a href="https://github.com/ComputerElite/blog/blob/7505cd2c821943acf18f0e9bd421c4a7e04d207d/_posts/2024-01-05-downgrading.md">Feb 29th 2024</a></li>
+  <li><a href="https://github.com/ComputerElite/blog/blob/b7bea96ae98d919513b7fa3102e9145e799d3ee6/_posts/2024-01-05-downgrading.md">Jan 5th 2024</a>
+    <h1 id="index">Index</h1>
+  </li>
+  <li>Why can’t I downgrade on OculusDB?
+    <ul>
+      <li>Info on accounts</li>
+      <li>What this means</li>
+    </ul>
+  </li>
+  <li>How can I currently downgrade?
+    <ul>
+      <li>Quest</li>
+      <li>PCVR</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="why-cant-i-downgrade">Why can’t I downgrade?</h1>
+<p>So, why can’t you downgrade games on by downloading them directly right now?
+Oculus removed download permission for the internal type of account I sign you in with. This means none of my downgrading tools currently have permission to download games from Oculus side. I’ve been searching for fixes for a few months with no avail so far meaning diff downgrading will have to be used for now.</p>
+
+<h2 id="whats-diff-downgrading">What’s diff downgrading?</h2>
+<p>Diff downgrading is a way to morph the most recent version of a game into another one by providing steps on how to modify it. This way I do not distribute the older versions directly which is not allowed but instead instructions on how to get an older version, which mostly is. This requires manually creating diff patches tho which takes a lot of time and storage if I were to do it for every game every version. And even then I would have to get an old version of a game first which I only have of Beat Saber.</p>
+
+<h2 id="info-on-accounts">Info on accounts</h2>
+<p>Even if you login with the same email and password, depending on the website you sign into, your logged in account has different permissions. For example when you log in on the developer page your logged in account does not have permission to download games. And neither does your account do on any other oculus webpage I’m aware of.</p>
+
+<h2 id="what-this-means">What this means</h2>
+<p>You cannot download games anymore by simply signing into your browser or current downgrading tools</p>
+
+<h1 id="how-can-i-currently-downgrade">How can I currently downgrade?</h1>
+<h2 id="quest-recommended">Quest (recommended)</h2>
+<h3 id="downgrading-only-works-for-beat-saber"><strong>Downgrading only works for Beat Saber</strong></h3>
+
+<p>The <strong>currently recommended</strong> way to downgrade is to install <a href="https://sidequestvr.com/app/5333/">QuestAppVersionSwitcher</a> to your quest via <a href="https://sidequestvr.com/setup-howto">SideQuest</a>. You can then follow the provided instructions (in app) to downgrade and mod Beat Saber.
+Bear in mind that sadly only Beat Saber can currently be downgraded. And that only to some specific versions. QAVS will tell you which versions you can downgrade to.</p>
+
+<h2 id="pcvr">PCVR</h2>
+<p>This does not affect PCVR downgrading. You can use <a href="https://github.com/ComputerElite/Oculus-downgrader">Oculus Downgrader</a> as usual to downgrade Rift/Air Link/Oculus Go/GearVR games</p>
+
+<h1 id="conclusion">Conclusion</h1>
+<p>I hope this clears things up. If you have any further questions feel free to join the <a href="https://discord.gg/zwRfHQN2UY">OculusDB Discord server</a> and ask your questions there.
+I’m searching for ways to get downloads working again. However it may take quite a bit till I find something if I find something at all.</p>]]></content><author><name>ComputerElite</name></author><category term="OculusDB" /><category term="Oculus" /><category term="Login" /><category term="QAVS" /><category term="OculusDowngrader" /><summary type="html"><![CDATA[Last updated Jun 28th 2024 Revisions Feb 29th 2024 Jan 5th 2024 Index Why can’t I downgrade on OculusDB? Info on accounts What this means How can I currently downgrade? Quest PCVR]]></summary></entry><entry><title type="html">Who am I?</title><link href="/2024/01/03/Who-am-I.html" rel="alternate" type="text/html" title="Who am I?" /><published>2024-01-03T00:00:00+00:00</published><updated>2024-01-03T00:00:00+00:00</updated><id>/2024/01/03/Who-am-I</id><content type="html" xml:base="/2024/01/03/Who-am-I.html"><![CDATA[<h1 id="hi-guys">Hi guys!</h1>
+<p>Welcome to my blog. I’m ComputerElite, a developer from Germany with lots of projects.</p>
+
+<h2 id="what-do-i-do">What do I do?</h2>
+<p>I do full stack applications, console applications for end users and game development. I also like to mess with esoteric programming languages.</p>
+
+<h2 id="what-i-use">What I use</h2>
+<ul>
+  <li>I mostly work with Linux servers while using Linux and Windows as personal OS</li>
+  <li>The programming languages I use are mostly C#, Javascript, HTML, CSS, C++ with a little less experience in Java</li>
+  <li>For managing my Code I use Git with GitHub and use GitHub Actions for compiling my code</li>
+  <li>I use Unity for Game Development and Xamarin for Android apps</li>
+  <li>I also do reverse engineering on occassion mostly on Oculus things.</li>
+</ul>
+
+<h2 id="some-sample-projects">Some sample projects</h2>
+<ul>
+  <li>Data scraping of the Oculus api with <a href="https://github.com/ComputerElite/OculusDB">OculusDB</a></li>
+  <li><a href="https://github.com/ComputerElite/Zwietracht">A real time chat platform</a></li>
+  <li><a href="https://github.com/ComputerElite/BM">Backup Utilities for Beat Saber</a></li>
+  <li>Several downgrade utilities for Oculus</li>
+  <li>A modding tool for the Meta Quest family named <a href="https://github.com/ComputerElite/QuestAppVersionSwitcher">QAVS</a></li>
+  <li>A multiplayer poker game</li>
+  <li>An ordering page for ordering articles (private)</li>
+</ul>
+
+<p>… and lots more which you can see on my GitHub</p>
+
+<h2 id="esoteric-programming-languages">Esoteric programming languages</h2>
+<p>Just like many other programmers I love esoteric programming languages. I made 3 brainfuck interpreters in C#, JavaScript and C++ as well as a Befunge Interpreter.</p>
+
+<p>Then there’s also CEBrainfuck which is a programming language which compiles to brainfuck.</p>
+
+<h2 id="background">Background</h2>
+<p>I started programming with <strong>Scratch</strong> but quickly wanted to get to text based programming as that’s what all the cool kids do. So I went on to learn <strong>Batch</strong> and make several question and answer programs, Tic Tac Toe, a fully functional, multi user, real time chat program and other small things. Next I learned <strong>Java</strong> to create a Minecraft server plugin during Covid and had lots of fun with that. Then I bought my Quest 1 (I still rock to this day) and fell into the rabbit hole that is Beat Saber modding. I started with modding my game, enjoying it and then wanted to create own mods myself. Without a friend asking if I can revive a mod I probably wouldn’t be where I am today. I revived RedBar and then - resulting from a joke - created CrashMod which just crashs your game if you play badly. There’s also third person mod to let you play in third person. During that I started creating various backup utilities (first in Java, then in C#) for modded games which were quite popular as they allowed for mod installation via an easy to use UI instead of scrolling through discord channels. This evolved into the <a href="https://computerelite.github.io/tools/Beat_Saber/questmods.html">beat saber mods page</a> most people use today to get their mods. I then started to create my own library for webservers and used that to create an open source analytics tool followed by several other projects like OculusDB, which is my most used project to date with the longest running lifespan. Just during last year (2023) I started working with arduinos and builded an <a href="https://github.com/ComputerElite/AnimatronicTail">animatronic tail</a>, which was hella fun and the first public testrun was a success. I left out a lot of stuff as it’s hard to aggregate everything. But oh well, this gives you an idea of what I do.</p>
+
+<h2 id="want-to-contact-me">Want to contact me?</h2>
+<p>You can get in contact with me via Discord (computerelite) or a GitHub issue.</p>]]></content><author><name>ComputerElite</name></author><category term="introduction" /><summary type="html"><![CDATA[Hi guys! Welcome to my blog. I’m ComputerElite, a developer from Germany with lots of projects.]]></summary></entry><entry><title type="html">Welcome to my blog</title><link href="/2024/01/02/Welcome.html" rel="alternate" type="text/html" title="Welcome to my blog" /><published>2024-01-02T00:00:00+00:00</published><updated>2024-01-02T00:00:00+00:00</updated><id>/2024/01/02/Welcome</id><content type="html" xml:base="/2024/01/02/Welcome.html"><![CDATA[<h1 id="welcome-to-my-blog">Welcome to my Blog!</h1>
+<p>This is the first blog entry to check if GitHub pages works.</p>
+
+<h2 id="whats-this-blog-about">What’s this blog about?</h2>
+<p>This blog is about development of my tools. I’ll use it as central resource for announcements instead of just positing them on Discord. Then it’s all in a central place, can be linked and updated with new information.
+Blog posts will occasionally redirect to more up to date posts</p>
+
+<h2 id="this-is-pain">This is pain</h2>]]></content><author><name>ComputerElite</name></author><category term="introduction" /><category term="test" /><summary type="html"><![CDATA[Welcome to my Blog! This is the first blog entry to check if GitHub pages works.]]></summary></entry></feed>
